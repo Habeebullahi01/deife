@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Habeebullahi &amp; Zaynab — Two Months</title>
+    <meta
+      name="description"
+      content="A little corner of the internet for two months of us."
+    />
+    <meta name="theme-color" content="#FBF7F4" />
+    <meta property="og:title" content="Habeebullahi & Zaynab — Two Months" />
+    <meta
+      property="og:description"
+      content="A little corner of the internet for two months of us."
+    />
+    <meta property="og:type" content="website" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#story">Skip to content</a>
+
+    <noscript>
+      <div class="noscript">
+        This little site counts the seconds with JavaScript. Please enable it. ♡
+      </div>
+    </noscript>
+
+    <main>
+      <!-- ── Hero ─────────────────────────────────────────────── -->
+      <header class="hero" id="top">
+        <div class="petals" aria-hidden="true"></div>
+
+        <div class="hero__inner">
+          <p class="kicker" id="hero-kicker"></p>
+
+          <h1 class="hero__names hero__names--stack">
+            <span class="hero__name" id="name-two"></span>
+            <span class="amp" aria-hidden="true">&amp;</span>
+            <span class="hero__name" id="name-one"></span>
+          </h1>
+
+          <p class="hero__line" id="hero-line"></p>
+
+          <div
+            class="counter"
+            id="counter"
+            role="group"
+            aria-label="How long we have been together"
+          ></div>
+          <p class="hero__note" id="hero-note"></p>
+        </div>
+
+        <a class="scroll-cue" href="#story" aria-label="Scroll to our story">
+          <span class="scroll-cue__line" aria-hidden="true"></span>
+          <span class="scroll-cue__text">scroll</span>
+        </a>
+      </header>
+
+      <!-- ── Story ────────────────────────────────────────────── -->
+      <section class="section" id="story">
+        <div class="wrap">
+          <p class="eyebrow reveal">chapter one</p>
+          <h2 class="h2 reveal" id="story-title"></h2>
+          <p class="lede reveal" id="story-intro"></p>
+          <ol class="timeline" id="timeline"></ol>
+        </div>
+      </section>
+
+      <!-- ── Numbers ──────────────────────────────────────────── -->
+      <section class="section section--tint" id="numbers">
+        <div class="wrap">
+          <p class="eyebrow eyebrow--center reveal">the arithmetic of us</p>
+          <h2 class="h2 h2--center reveal" id="stats-title"></h2>
+          <ul class="stats" id="stats"></ul>
+        </div>
+      </section>
+
+      <!-- ── Letter ───────────────────────────────────────────── -->
+      <section class="section" id="letter">
+        <div class="wrap wrap--narrow">
+          <p class="eyebrow eyebrow--center reveal">sealed, not sent</p>
+          <h2 class="h2 h2--center reveal" id="letter-title"></h2>
+
+          <article class="letter reveal">
+            <p class="letter__greeting" id="letter-greeting"></p>
+            <div class="letter__body" id="letter-body"></div>
+            <p class="letter__signoff">
+              <span id="letter-signoff"></span><br />
+              <span class="letter__signature" id="letter-signature"></span>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- ── Reasons ──────────────────────────────────────────── -->
+      <section class="section section--tint" id="reasons">
+        <div class="wrap">
+          <p class="eyebrow eyebrow--center reveal">for the record</p>
+          <h2 class="h2 h2--center reveal" id="reasons-title"></h2>
+          <p class="lede lede--center reveal" id="reasons-intro"></p>
+          <div class="reasons" id="reasons-grid"></div>
+        </div>
+      </section>
+
+      <!-- ── Gallery ──────────────────────────────────────────── -->
+      <section class="section" id="gallery">
+        <div class="wrap">
+          <p class="eyebrow eyebrow--center reveal">the good stuff</p>
+          <h2 class="h2 h2--center reveal" id="gallery-title"></h2>
+          <p class="lede lede--center reveal" id="gallery-intro"></p>
+          <div class="gallery" id="gallery-grid"></div>
+        </div>
+      </section>
+
+      <!-- ── Surprise ─────────────────────────────────────────── -->
+      <!-- <section class="section section--surprise" id="surprise">
+        <div class="wrap wrap--narrow">
+          <div class="surprise reveal">
+            <p class="eyebrow eyebrow--center">one more thing</p>
+            <h2 class="h2 h2--center" id="surprise-prompt"></h2>
+
+            <button
+              class="btn"
+              id="surprise-btn"
+              type="button"
+              aria-expanded="false"
+              aria-controls="surprise-card"
+            >
+              <span id="surprise-btn-label"></span>
+            </button>
+
+            <div class="surprise__card" id="surprise-card" hidden>
+              <span class="surprise__mark" aria-hidden="true">♡</span>
+              <p class="surprise__message" id="surprise-message"></p>
+              <p class="surprise__signature" id="surprise-signature"></p>
+            </div>
+          </div>
+        </div>
+      </section> -->
+    </main>
+
+    <!-- ── Footer ─────────────────────────────────────────────── -->
+    <!-- <footer class="footer">
+    <div class="footer__rule" aria-hidden="true"><span>♡</span></div>
+    <p class="footer__line" id="footer-line"></p>
+    <p class="footer__names" id="footer-names"></p>
+    <p class="footer__meta" id="footer-meta"></p>
+    <p class="footer__count" id="footer-count"></p>
+  </footer> -->
+
+    <script src="js/content.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
